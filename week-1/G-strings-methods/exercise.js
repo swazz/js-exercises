@@ -2,11 +2,10 @@
 //  var fullName = "swathi priya";
 //  var fullNameLength = fullName.length;
 
-//  console.log(fullNameLength);
-// var name = "SWAZZ";
-// var nameLowerCase = name.toLowerCase();
-
-// console.log(nameLowerCase);
+//console.log(fullNameLength);
+//var .trim  = "SWAZZ";
+//var nameLowerCase = name.toLowerCase();
+//console.log(nameLowerCase);
 
 // var school="dalry"
 // var schoolname= school.length;
@@ -16,5 +15,12 @@
 // var fullNamenlength = "my name is swathi priya and my name has 12 characters.";
 // var nameLength = fullNamenlength.length;
 
-// console.log(fullNamenlength); 
+// console.log(fullNamenlength);
 //MDN website
+
+var myname = "swazz";
+var mylastname = "priya";
+var fullname = myname + mylastname,
+  toUpperCase;
+// var fullname = fullname.toUpperCase;
+console.log(fullname);
