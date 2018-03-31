@@ -9,9 +9,14 @@
 */
 
 function containsCode(sentence) {
-
+  return new RegExp("code").test(sentence);
 }
 
+/*function wordInString(s, word){
+  return new RegExp( '\\b' + word + '\\b', 'i').test(s);
+}
+
+wordInString('did you, or did you not, get why?', 'you') 
 /* 
 DO NOT EDIT BELOW THIS LINE
 --------------------------- */
@@ -19,11 +24,11 @@ var sentence1 = "code your future";
 var sentence2 = "draw your future";
 var sentence3 = "design your future";
 
-console.log("'" + sentence1 + "': " + containsCode(sentence1))
-console.log("'" + sentence2 + "': " + containsCode(sentence2))
-console.log("'" + sentence3 + "': " + containsCode(sentence3))
+console.log("'" + sentence1 + "': " + containsCode(sentence1));
+console.log("'" + sentence2 + "': " + containsCode(sentence2));
+console.log("'" + sentence3 + "': " + containsCode(sentence3));
 
-    /* 
+/* 
     EXPECTED RESULT
     ---------------
     'code your future': true

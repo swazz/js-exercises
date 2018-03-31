@@ -53,7 +53,7 @@ undefined
 > console.log(greeting)
 hello
 undefined
-> .exit
+> ..exit
 $
 ```
 
